@@ -56,10 +56,3 @@ source venv/bin/activate
 - Run celery beat for tasks scheduling: "celery -A auto_ria beat -l INFO --scheduler django_celery_beat.schedulers:DatabaseScheduler"
 - Run app: "python manage.py runserver"
 ```
-
-## User credentials
-
-```shell
-name: Oleg
-password: user12345
-```
