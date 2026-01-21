@@ -56,3 +56,7 @@ source venv/bin/activate
 - Run celery beat for tasks scheduling: "celery -A auto_ria beat -l INFO --scheduler django_celery_beat.schedulers:DatabaseScheduler"
 - Run app: "python manage.py runserver"
 ```
+
+## Demo access
+
+Test users can be created locally after project setup.
